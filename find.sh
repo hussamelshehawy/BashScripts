@@ -1,3 +1,3 @@
 #!/bin/bash
 
-find /etc/ -type f -size +5M -exec cp '{}' /home/test \;  
+find /etc/ -type f -size +5M -exec cp '{}' /home \;  
